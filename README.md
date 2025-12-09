@@ -1,8 +1,8 @@
 # Power Electronic Final-Exam
 
 **Created by:**  
-**Name:** Rizal Kurniawan Saputra<br>
-**NIM:** 22/496542/TK/54416  
+**Name   :** Rizal Kurniawan Saputra<br>
+**NIM    :** 22/496542/TK/54416  
 
 ---
 
