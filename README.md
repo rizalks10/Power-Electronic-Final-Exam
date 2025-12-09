@@ -15,7 +15,7 @@ This repository presents the final examination project for the Power Electronics
 
 ---
 
-## 🔍 Task 1: MOSFET Switching Design
+## 🔍 Task 1: Design MOSFET Switching 
 <img width="781" height="359" alt="image" src="https://github.com/user-attachments/assets/559101ca-9cac-440f-9c21-969d5e56acfc" /><br>
 **Project Description**
 
@@ -41,9 +41,10 @@ Key switching parameters to be identified and annotated include:
 - Any overshoot or oscillation resulting from parasitic effects
 
 ---
-## 🔍 Task 2: Three Inverter Topologies Commonly Used in Power Electronics
+## 🔍 Task 2: Design Three Inverter Topologies Commonly Used in Power Electronics
 <img width="878" height="502" alt="image" src="https://github.com/user-attachments/assets/ce780f6d-3bc4-4430-b388-d7db2ec21c66" /><br>
 **Project Description**
+
 This task involves analyzing three converter topologies that are widely applied in power electronics:
 
 - Half-bridge single-phase inverter (Figure 3)  
@@ -53,4 +54,30 @@ This task involves analyzing three converter topologies that are widely applied 
 The study examines the influence of sinusoidal pulse-width modulation (SPWM), dc-link voltage, and modulation index on inverter output performance. A second-order filter is also designed to obtain the desired output voltage quality.
 
 This task evaluates understanding of inverter operation, modulation strategies, harmonic behavior, and LC filter design.
+
 **Observation**
+
+1. Analysis of Output Voltage in Time and Frequency Domains  
+For each inverter configuration:
+
+   a. Generate the switching waveforms of the output voltage v<sub>o</sub>(t) using SPWM.  
+   b. Plot the output voltage waveform in the time domain for various modulation indices  
+        m<sub>a</sub> (e.g., 0.6, 0.8, 1.0).  
+   c. Determine the frequency-domain characteristics using FFT, including:
+        - Identification of the fundamental frequency component  
+        - Identification of dominant switching harmonics  
+        - Comparison of harmonic spectra across the three inverter topologies  
+
+2. Design of a Second-Order Output Filter  
+For one selected inverter type (either single-phase or three-phase):
+
+    a. Develop a second-order LC filter that satisfies:
+        - Adequate attenuation of switching harmonics  
+        - Preservation of the fundamental frequency  
+    b. Provide clear design specifications:
+        - Selected cutoff frequency  
+        - Values of the inductor and capacitor  
+        - Rationale behind the chosen design parameters, including trade-offs and limitations  
+    c. Perform a simulation of the inverter equipped with the designed filter and present:
+        - The filtered output voltage waveform  
+        - Improvement in waveform quality relative to the unfiltered inverter output  
