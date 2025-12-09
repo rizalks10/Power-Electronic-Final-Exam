@@ -17,13 +17,13 @@ This repository presents the final examination project for the Power Electronics
 
 ## 🔍 Task 1: Design MOSFET Switching 
 <img width="781" height="359" alt="image" src="https://github.com/user-attachments/assets/559101ca-9cac-440f-9c21-969d5e56acfc" /><br>
-### **Project Description**
+### ⚙️ **Project Description**
 
 This project involves developing both simulation and experimental setups to investigate the switching behavior of a power MOSFET under a resistive load. The task includes designing a low-side totem-pole gate driver, implementing it in simulation and laboratory testing, and evaluating how gate-driver characteristics influence MOSFET switching performance.
 
 The project aims to assess understanding of switching transients, gate-driver design principles, MOSFET dynamic behavior, and the measurement and interpretation of switching waveforms.
 
-### **Observation**
+### ⚙️ **Observation**
 
 The study requires performing simulations and experiments on MOSFET switching and recording the following waveforms:
 
@@ -43,7 +43,7 @@ Key switching parameters to be identified and annotated include:
 ---
 ## 🔍 Task 2: Design Three Inverter Topologies Commonly Used in Power Electronics
 <img width="878" height="502" alt="image" src="https://github.com/user-attachments/assets/ce780f6d-3bc4-4430-b388-d7db2ec21c66" /><br>
-### **Project Description**
+### ⚙️ **Project Description**
 
 This task involves analyzing three converter topologies that are widely applied in power electronics:
 
@@ -55,7 +55,7 @@ The study examines the influence of sinusoidal pulse-width modulation (SPWM), dc
 
 This task evaluates understanding of inverter operation, modulation strategies, harmonic behavior, and LC filter design.
 
-### **Observation**
+### ⚙️ **Observation**
 
 1. Analysis of Output Voltage in Time and Frequency Domains  
 For each inverter configuration:
