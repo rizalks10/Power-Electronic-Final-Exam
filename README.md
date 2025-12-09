@@ -59,23 +59,22 @@ This task evaluates understanding of inverter operation, modulation strategies, 
 
 1. Analysis of Output Voltage in Time and Frequency Domains  
 For each inverter configuration:
-   a. Generate the switching waveforms of the output voltage v<sub>o</sub>(t) using SPWM.  
-   b. Plot the output voltage waveform in the time domain for various modulation indices  
-        m<sub>a</sub> (e.g., 0.6, 0.8, 1.0).  
-   c. Determine the frequency-domain characteristics using FFT, including:
+   * Generate the switching waveforms of the output voltage v<sub>o</sub>(t) using SPWM.  
+   * Plot the output voltage waveform in the time domain for various modulation indices m<sub>a</sub> (e.g., 0.6, 0.8, 1.0).  
+   * Determine the frequency-domain characteristics using FFT, including:
         - Identification of the fundamental frequency component  
         - Identification of dominant switching harmonics  
         - Comparison of harmonic spectra across the three inverter topologies  
 
 2. Design of a Second-Order Output Filter  
 For one selected inverter type (either single-phase or three-phase):
-    a. Develop a second-order LC filter that satisfies:
+      * Develop a second-order LC filter that satisfies:
         - Adequate attenuation of switching harmonics  
         - Preservation of the fundamental frequency  
-    b. Provide clear design specifications:
+      * Provide clear design specifications:
         - Selected cutoff frequency  
         - Values of the inductor and capacitor  
         - Rationale behind the chosen design parameters, including trade-offs and limitations  
-    c. Perform a simulation of the inverter equipped with the designed filter and present:
+      * Perform a simulation of the inverter equipped with the designed filter and present:
         - The filtered output voltage waveform  
         - Improvement in waveform quality relative to the unfiltered inverter output  
