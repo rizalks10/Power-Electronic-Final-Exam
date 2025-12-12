@@ -1,4 +1,4 @@
-# Power Electronic Final-Exam
+# Power-Electronic Final-Exam
 
 **Created by:**  
 **Name    :** Rizal Kurniawan Saputra<br>
