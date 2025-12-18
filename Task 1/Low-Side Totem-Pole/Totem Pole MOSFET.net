@@ -1,0 +1,18 @@
+* H:\Materi Kuliah\Semester 7\Elday\UAS_Elektronika Daya\Task 1\Low-Side Totem-Pole\Totem Pole MOSFET.asc
+Q1 Vd N001 gate 0 2N3904
+Q2 gate N001 0 0 2N3906
+Rg N001 N002 1k
+M1 drain gate 0 0 IRFZ44N
+R_load Vs drain 150
+V1 Vd 0 15
+V2 Vs 0 15
+V3 N002 0 PULSE(0 10 0 10n 10n 5u 10u)
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\USERR\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\USERR\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 20e-6
+.backanno
+.end
