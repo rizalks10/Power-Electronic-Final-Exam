@@ -78,5 +78,6 @@ For one selected inverter type (either single-phase or three-phase):
       * Perform a simulation of the inverter equipped with the designed filter and present:
         - The filtered output voltage waveform  
         - Improvement in waveform quality relative to the unfiltered inverter output
-
+  
+---
 **The solution of this task can be seen in the Final Report.**
